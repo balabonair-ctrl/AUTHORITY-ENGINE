@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pocket Publicist™ | Turn Your Google Profile Into a Case Intake Asset</title>
+  <meta name="description" content="Stop losing personal injury cases. Turn your Google Profile into a 24/7 authority asset with the Local Authority Engine™. No ads, no vendors, no long-term contracts."/>
+
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="Pocket Publicist™ | Local Authority Engine™"/>
+  <meta property="og:description" content="Build legal authority that converts. Zero setup fee. Cancel anytime."/>
+  <meta property="og:type" content="website"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#1E2D3B', light: '#2D3E4F', dark: '#141E28' },
+            cyan: { DEFAULT: '#46A0A5', light: '#5BB6BC', dark: '#358A8E' }
+          },
+          fontFamily: { sans: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-pattern {
+      /* Fallback/background for hero. If you have an SVG data URL, paste it here. */
+      background-color:#f8fafc;
+    }
+    /* Custom AOS Tweaks for subtlety */
+    [data-aos] { pointer-events: none; }
+    .aos-animate { pointer-events: auto; }
+  </style>
+
+  <!-- JSON-LD Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pocket Publicist™",
+    "url": "https://pocketpublicist.com",
+    "logo": "8527.png",
+    "description": "Premium authority building for personal injury law firms.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "504-531-3541",
+      "contactType": "customer service",
+      "email": "pocketpublicist-consult@gmail.com"
+    }
+  }
+  </script>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+      "react/": "https://esm.sh/react@^19.2.3/",
+      "react": "https://esm.sh/react@^19.2.3",
+      "aos": "https://esm.sh/aos@2.3.4"
+    }
+  }
+  </script>
+</head>
+<body class="bg-white text-navy font-sans antialiased overflow-x-hidden">
+  <div id="root">
+    <!-- If you are not mounting a React app, replace this with the actual static content you want displayed -->
+    <main class="p-8">
+      <h1 class="text-3xl font-bold">Pocket Publicist™</h1>
+      <p class="mt-4">Turn your Google Profile into a 24/7 authority asset.</p>
+      <p class="mt-2 text-sm text-gray-600">Deployed as a static landing page. Edit this file at the repo root to change content.</p>
+    </main>
+  </div>
+</body>
+</html>
